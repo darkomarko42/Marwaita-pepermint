@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Marwaita Peppermint Light
+Comment=GTK Theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Marwaita Peppermint Light
+MetacityTheme=Marwaita Peppermint Light
+IconTheme=Luna-Light
+CursorTheme=Luna-Light
+CursorSize=24
