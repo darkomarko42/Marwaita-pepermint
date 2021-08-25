@@ -1,12 +1,12 @@
 [Desktop ]
 Type=X-GNOME-Metatheme
-Name=Marwaita Peppermint Dark
+Name=Marwaita Dark
 Comment=GTK Theme
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
-GtkTheme=Marwaita Peppermint Dark
-MetacityTheme=Marwaita Peppermint Dark
+GtkTheme=Marwaita Dark
+MetacityTheme=Marwaita Dark
 IconTheme=Luna-Dark
 CursorTheme=Luna
 CursorSize=24
