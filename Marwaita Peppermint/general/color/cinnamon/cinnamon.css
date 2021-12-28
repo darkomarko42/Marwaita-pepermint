@@ -1,9 +1,9 @@
-*{color: white; icon-size: 16px; selection-background-color: rgba(255,255,255, 0.15); selected-color: white;}
+*{color: black; icon-size: 16px; selection-background-color: rgba(0,0,0, 0.15); selected-color: black;}
 
 #panel,
 .menu-application-button:highlighted { font-weight: bold;}
 
-.calendar-day-heading{color: rgba(255,255,255, 0.5); padding-top: 16px;}
+.calendar-day-heading{color: rgba(0,0,0, 0.5); padding-top: 16px;}
 
 .popup-subtitle-menu-item,
 .calendar-other-month-day,
@@ -15,7 +15,7 @@
 .popup-menu-item:insensitive *,
 .popup-inactive-menu-item *,
 .popup-menu-item:insensitive,
-.popup-inactive-menu-item{color: rgba(255,255,255, 0.35);}
+.popup-inactive-menu-item{color: rgba(0,0,0, 0.35);}
 
 .menu-category-button-greyed StIcon {opacity: 0.5;}
 
@@ -163,20 +163,20 @@ StButton,
 .window-close:active,
 .window-close:checked{background-color: #F95353;}
 
-.popup-sub-menu{ background-color: rgba(255,255,255, 0.1);}
+.popup-sub-menu{ background-color: rgba(0,0,0, 0.1);}
 
 StButton,
 #notification .notification-button{box-shadow: none;}
 
 StButton:hover,
 #notification .notification-button:hover
-{box-shadow: inset 0 0 0 1px rgba(255,255,255, 0.3);}
+{box-shadow: inset 0 0 0 1px rgba(0,0,0, 0.3);}
 
 StButton:active,
 StButton:checked,
 #notification .notification-button:active,
 #notification .notification-button:checked
-{box-shadow: inset 0 0 0 9999px rgba(255,255,255, 0.1);}
+{box-shadow: inset 0 0 0 9999px rgba(0,0,0, 0.1);}
 
 .applet-box:hover,
 .popup-menu-item:active,
@@ -196,7 +196,7 @@ StButton:checked,
 .sound-player-overlay StButton:hover,
 .calendar-change-month-back:hover,
 .calendar-change-month-forward:hover
-{ background-color: rgba(255,255,255, 0.1); box-shadow: none;}
+{ background-color: rgba(0,0,0, 0.1); box-shadow: none;}
 
 .window-list-item-box:focus,
 .window-list-item-box:active:focus,
@@ -208,26 +208,26 @@ StButton:checked,
 .sound-player-overlay StButton:active,
 .calendar-change-month-back:active,
 .calendar-change-month-forward:active
-{ background-color: rgba(255,255,255, 0.15); box-shadow: none;}
+{ background-color: rgba(0,0,0, 0.15); box-shadow: none;}
 
 .window-list-item-box,
 .grouped-window-list-item-box:active{ background-color: rgba(0,0/**/,0, 0.01);}
 
 .panel-bottom .window-list-item-box:focus,
-.panel-bottom .grouped-window-list-item-box:active{ box-shadow: inset 0 -2px white;}
+.panel-bottom .grouped-window-list-item-box:active{ box-shadow: inset 0 -2px black;}
 
 .panel-top .window-list-item-box:focus,
-.panel-top .grouped-window-list-item-box:active{ box-shadow: inset 0 2px white;}
+.panel-top .grouped-window-list-item-box:active{ box-shadow: inset 0 2px black;}
 
 .panel-right .window-list-item-box:focus,
-.panel-right .grouped-window-list-item-box:active{ box-shadow: inset -2px 0 white;}
+.panel-right .grouped-window-list-item-box:active{ box-shadow: inset -2px 0 black;}
 
 .panel-left .window-list-item-box:focus,
-.panel-left .grouped-window-list-item-box:active{ box-shadow: inset 2px 0 white;}
+.panel-left .grouped-window-list-item-box:active{ box-shadow: inset 2px 0 black;}
 
 .progress{background-color: rgba(51,185,84,0.5);}
 
-.panel-dummy{ background-color: rgba(255,255,255, 0.5);}
+.panel-dummy{ background-color: rgba(0,0,0, 0.5);}
 
 /* Borders */
 
@@ -327,8 +327,8 @@ StScrollBar StButton{border-radius: 9999px; border-color: transparent; backgroun
 .popup-slider-menu-item {
     height: 1em;
     -slider-height: 6px;
-    -slider-background-color: rgba(255,255,255, 0.2);
-    -slider-active-background-color: white;
+    -slider-background-color: rgba(0,0,0, 0.2);
+    -slider-active-background-color: black;
     -slider-border-width: 1px;
     -slider-handle-radius: 0em;
 }
@@ -338,7 +338,7 @@ StScrollBar StButton,
 StScrollBar StButton:hover,
 StScrollBar StButton:active,
 StScrollBar StButton:checked
-{background-color: white; box-shadow: none;}
+{background-color: black; box-shadow: none;}
 
 /* Images */
 
@@ -424,18 +424,18 @@ StScrollBar StButton:checked
 
 .applet-separator-line {
     width: 1px;
-    background: rgba(255,255,255, 0.2);
+    background: rgba(0,0,0, 0.2);
 }
 
 .applet-separator-line-vertical {
-    border: 0px solid rgba(255,255,255, 0.2);
+    border: 0px solid rgba(0,0,0, 0.2);
     border-bottom-width: 1px;
 }
 
 /* this is for user applet */
-.user-label { color: white;}
+.user-label { color: black;}
 
-.user-icon{border: 2px solid white;}
+.user-icon{border: 2px solid black;}
 
 /* Tooltip */
 
