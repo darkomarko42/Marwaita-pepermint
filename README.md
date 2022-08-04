@@ -1,5 +1,5 @@
 # Marwaita Peppermint
-GTK theme for Budgie desktop based on Marwaita Theme with Peppermint Os Linux style
+GTK theme for Cinnamon desktop based on Marwaita Theme with Peppermint Os Linux style
 
 ## Requirments
 
