@@ -7,4 +7,3 @@ GTK theme for Cinnamon desktop based on Marwaita Theme with Peppermint Os Linux 
 
 ### GTK2 engines requirment
 - GTK2 Murrine engine.
-- GTK2 Clearlooks engine.
