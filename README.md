@@ -1,5 +1,5 @@
-# Marwaita Peppermint
-GTK theme for Cinnamon desktop based on Marwaita Theme with Peppermint Os Linux style
+# Marwaita
+GTK theme for Cinnamon desktop
 
 ## Requirments
 
