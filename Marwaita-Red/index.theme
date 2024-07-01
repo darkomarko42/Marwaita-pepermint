@@ -1,12 +1,12 @@
 [Desktop Entry]
 Type=X-GNOME-Metatheme
-Name=Marwaita-Peppermint
+Name=Marwaita-Red
 Comment=GTK Theme
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
-GtkTheme=Marwaita-Peppermint
-MetacityTheme=Marwaita-Peppermint
+GtkTheme=Marwaita-Red
+MetacityTheme=Marwaita-Red
 IconTheme=Marwaita
 CursorTheme=Marwaita
 CursorSize=24
