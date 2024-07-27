@@ -42,8 +42,6 @@ label { caret-color: currentColor; }
 
 label selection { background-color: @accent_bg_color; color: @accent_fg_color; }
 
-label:disabled { color: mix(@window_fg_color,@window_bg_color,0.5); }
-
 button label:disabled { color: inherit; }
 
 label.error { color: @error_bg_color; }
@@ -301,8 +299,6 @@ button.titlebutton:backdrop { -gtk-icon-shadow: none; }
 .titlebar:not(headerbar) .title, headerbar .title { padding-left: 12px; padding-right: 12px; font-weight: bold; }
 
 .titlebar:not(headerbar) .subtitle, headerbar .subtitle { font-size: smaller; padding-left: 12px; padding-right: 12px; }
-
-.titlebar:not(headerbar) stackswitcher button:checked:backdrop, .titlebar:not(headerbar) button.toggle:checked:backdrop, headerbar stackswitcher button:checked:backdrop, headerbar button.toggle:checked:backdrop { color: mix(@window_fg_color,@window_bg_color,0.5); background-color: mix(currentColor,@window_bg_color,0.7); }
 
 .tiled .titlebar:not(headerbar), .tiled-top .titlebar:not(headerbar), .tiled-right .titlebar:not(headerbar), .tiled-bottom .titlebar:not(headerbar), .tiled-left .titlebar:not(headerbar), .maximized .titlebar:not(headerbar), .fullscreen .titlebar:not(headerbar), .tiled headerbar, .tiled-top headerbar, .tiled-right headerbar, .tiled-bottom headerbar, .tiled-left headerbar, .maximized headerbar, .fullscreen headerbar { border-radius: 0; }
 
@@ -846,7 +842,7 @@ messagedialog .dialog-action-area{border-radius: 0 0 6.0px 6.0px;}
 messagedialog button,
 messagedialog .linked button,
 .budgie-session-dialog .linked button,
-.budgie-polkit-dialog .linked button { margin: 6px; border-radius: 6.0px; -gtk-outline-radius: 6.0px; }
+.budgie-polkit-dialog .linked button { margin: 6px; border-radius: 6.0px; -gtk-outline-radius: 6.0px; border: 1px solid @transparent_border; }
 
 messagedialog button:only-child,messagedialog .linked button:only-child {margin: 0px 6px;}
 
@@ -895,7 +891,7 @@ separator.sidebar,.sidebar separator,separator.sidebar.selection-mode, .selectio
 
 placessidebar > viewport.frame { border-style: none; }
 
-placessidebar row { min-height: 32px; padding: 0px; }
+placessidebar row { min-height: 32px; padding: 2px 0; }
 
 placessidebar row > revealer { padding: 0 14px; }
 
